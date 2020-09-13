@@ -53,16 +53,19 @@ return	num1 + num2;
 
 
 const lovesCodeChecker = (x) => {
+
 	if(x === x){
 		return true;
 	}
-	else if(x != x){
+	else if(x !== x){
 		return false;
 	}
+}
 
-};
 	
-	
+
+   
+
 
 
 
@@ -137,7 +140,7 @@ const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
-const middleNums = [];
+const middleNums = [2,3,4];
 
 
 
@@ -306,15 +309,8 @@ const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
 
-let forTheLoveOfGeorge = [];
 
-
-
-notGeorge.map(function(el){
-	if(el != 'George'){
-		el = 'George';
-	}
-})
+let forTheLoveOfGeorge = notGeorge.map(name => 'George');
 
 
 
@@ -338,14 +334,11 @@ const people = [
 
 const enemies = [];
 
-people.filter(function(person){
-	if(person.friend === false){
-		enemies.push(person.friend)
-		
+people.filter((enemy) =>{
+	if(people.friend === false){
+		enemies.push()
 	}
-
-	return enemies;
-
+    return enemies;
 });
 
 
@@ -357,6 +350,11 @@ people.filter(function(person){
 
 //////////////////PROBLEM 20////////////////////
 
-// Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
+// Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named
+// 'totallyAwesome'. Use .reduce().
 
 // Code Here
+
+const totallyAwesome = people.awesomeLevel.reduce(() => {
+
+})
