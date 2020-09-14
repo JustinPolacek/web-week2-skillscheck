@@ -52,11 +52,12 @@ return	num1 + num2;
 //Code here
 
 
-function lovesCodeChecker(x){
+const lovesCodeChecker = (x) => {
 	if(x === x){
 		return true;
 	}
-    else if(x !== x){
+
+	else {
 		return false;
 	}
 }
@@ -260,17 +261,12 @@ if(num > 100){
 
 //////////////////PROBLEM 16////////////////////
 
-// Next, use reduce to get the total of the numbers in the array summed together. Store the total in a new variable named 'total'. 
+// Next, use reduce to get the total of the numbers in the array summed together. 
+//Store the total in a new variable named 'total'. 
 
 // Code Here
 
-const total = 0;
-
-myNumbers.reduce((accumulator, currentValue) => {
-
-
-
-}); 
+const total = myNumbers.reduce((acc, cur) => acc + cur ); 
 
 
 
@@ -347,8 +343,16 @@ const enemies = people.filter(function(person){
 
 //////////////////PROBLEM 20////////////////////
 
-// Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named
+// Using the people array above, get a total of the awesomeLevel from all the people, 
+//and store that value in a variable named
 // 'totallyAwesome'. Use .reduce().
 
 // Code Here
+
+
+const totallyAwesome = people.reduce(function(person){
+	
+})
+
+
 
