@@ -52,16 +52,14 @@ return	num1 + num2;
 //Code here
 
 
-const lovesCodeChecker = (x) => {
-
+function lovesCodeChecker(x){
 	if(x === x){
 		return true;
 	}
-	else if(x !== x){
+    else if(x !== x){
 		return false;
 	}
 }
-
 	
 
    
@@ -331,15 +329,14 @@ const people = [
 
 // Code Here
 
-
-const enemies = [];
-
-people.filter((enemy) =>{
-	if(people.friend === false){
-		enemies.push()
+const enemies = people.filter(function(person){
+	if(person.friend === false){
+		return true;
 	}
-    return enemies;
-});
+
+})
+
+
 
 
 
@@ -355,6 +352,3 @@ people.filter((enemy) =>{
 
 // Code Here
 
-const totallyAwesome = people.awesomeLevel.reduce(() => {
-
-})
