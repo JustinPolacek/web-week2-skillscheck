@@ -99,7 +99,7 @@ h3{
 }
 .gallery{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
     flex-wrap: wrap;
       
@@ -115,7 +115,14 @@ h3{
     padding: 50px;
     transition: transform .5s; 
     cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+      
 }
+
+
+    
 
 
 
@@ -157,36 +164,51 @@ h3{
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
-  .third-btn{
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
+  .fourth-box{
+    display: flex;
+    height: 500px;
+    width: 300px;
+    background-image: url(img/pexels-melvin-buezo-2529157.jpg);
+    background-position: center;
+    background-size: 324px;
+    background-repeat: no-repeat;
+    transition: transform .5s;
     cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-  
-  
-}
+
+  }
+  .fourth-box:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .fifth-box{
+
+    display: flex;
+    height: 500px;
+    width: 300px;
+    background-image: url(img/pexels-wallace-chuck-3261069.jpg);
+    background-position: center;
+    background-size: 290px;
+    background-repeat: no-repeat;
+    transition: transform .5s;
+    cursor: pointer;
+
+  }
+
+  .fifth-box:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 
 footer{
     background-color: black;
     height: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .footing{
     color: white;
     font-size: 2.5rem;
-    margin-left: 750px;
-    margin-top: 25px;
-    font-weight: 300;
+   
 }
