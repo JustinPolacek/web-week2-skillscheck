@@ -24,7 +24,7 @@ nav {
 }
 
 nav li{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     list-style: none;
     text-decoration: none;   
 }
@@ -60,7 +60,7 @@ a:hover {
     width: 100%;
     background-color: black;
     display: flex;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(img/Screen\ Shot\ 2020-10-27\ at\ 10.06.58\ PM.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), transparent), url(img/Screen\ Shot\ 2020-10-27\ at\ 10.06.58\ PM.png);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ h3{
     letter-spacing: 3px;
 }
 .logo-2{
-    color: white;
+    color: whitesmoke;
     font-size: 6rem;
     font-weight: 500;
     margin-top: 100px;
@@ -278,3 +278,5 @@ footer{
     font-size: 2.5rem;
    
 }
+
+
