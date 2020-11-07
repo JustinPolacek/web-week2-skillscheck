@@ -40,7 +40,7 @@ header{
 .nav a{
     text-decoration: none;
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 .nav .logo{
@@ -141,6 +141,7 @@ header{
     text-align: center;
     flex-direction: column;
     margin-bottom: 10px;
+    letter-spacing: 2px;
     
 }
 
@@ -148,13 +149,14 @@ header{
     background-color:#b06670;
     color: white;
     padding: 15px 25px 15px 25px;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-weight: 500;
     border: none;
     margin-top: 40px;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;   
     transition-duration: 0.4s;
+    letter-spacing: 2px;
     
 }
 
@@ -184,8 +186,8 @@ h3{
 }
 
 
-.container {
-  max-width: 1600px; 
+.container-1 {
+  max-width: 1800px; 
   margin: auto;
   padding: 0 1rem;
   overflow: auto;
@@ -220,6 +222,7 @@ img {
   width:  100%;
   transition: 1s;
   cursor: pointer;
+  justify-content: space-around;
 }
 
 
@@ -228,9 +231,13 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 3fr);
   grid-gap: 1rem;
+  
+  justify-content: center;
+
   background: #f1f1f1;
   margin-bottom: 1rem;
 }
+
 
 p{
   font-size: 18px;
@@ -289,16 +296,27 @@ p{
 
 footer{
     background-color: black;
-    height: 100px;
+    height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-
-}
-
-.footing{
     color: white;
-    font-size: 2.5rem;
-   
+    
+
 }
+
+.foot-nav{
+  list-style: none;
+  justify-content: space-around;
+  margin-left: 200px;
+}
+
+.foot-nav li{
+  margin: 15px;
+  list-style: none;
+  font-size: 18px;
+}
+
+
+
 
