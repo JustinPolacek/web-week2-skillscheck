@@ -7,11 +7,12 @@
 
 html{
 font-size: 62.5%;
+scroll-behavior: smooth;
 }
 
 /* NAV-BAR STYLES */
 
-header{
+.main-head{
     width: 100%;
     position: fixed;
     top: 0;
@@ -145,25 +146,7 @@ header{
     
 }
 
-.mid-button{
-    background-color:#b06670;
-    color: white;
-    padding: 15px 25px 15px 25px;
-    font-size: 2.6rem;
-    font-weight: 500;
-    border: none;
-    margin-top: 40px;
-    border-radius: 30px;
-    cursor: pointer;   
-    transition-duration: 0.4s;
-    letter-spacing: 2px;
-    
-}
 
-.mid-button:hover {
-  background-color: #b06690;
-  color: white;
-}
 
 h4{
   font-size: 3rem;
@@ -218,7 +201,7 @@ h3{
   font-size: 2rem;
 }
 
-img {
+ img {
   width:  100%;
   transition: 1s;
   cursor: pointer;
@@ -227,13 +210,12 @@ img {
 
 
 
+
 .card {
   display: grid;
   grid-template-columns: repeat(2, 3fr);
   grid-gap: 1rem;
-  
   justify-content: center;
-
   background: #f1f1f1;
   margin-bottom: 1rem;
 }
@@ -275,6 +257,7 @@ p{
   font-weight: 500;
   border: none;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -288,34 +271,71 @@ p{
   }
 }
 
-
-
-  
-
-  
-
-footer{
-    background-color: black;
-    height: 300px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: white;
+@media(max-width: 800px){
+  .logo-2{
+    font-size:5.2rem;
     
-
+  }
 }
 
-.foot-nav{
-  list-style: none;
-  justify-content: space-around;
-  margin-left: 200px;
+
+  
+
+#contact {
+  min-height: 50vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.foot-nav li{
-  margin: 15px;
-  list-style: none;
-  font-size: 18px;
+
+
+#contact button{
+  background-color:#b06670;
+  color: white;
+  padding: 15px 25px 15px 25px;
+  font-size: 2.6rem;
+  font-weight: 500;
+  border: none;
+  margin-top: 40px;
+  
+  cursor: pointer;   
+  transition-duration: 0.4s;
+  letter-spacing: 2px;
+  width: 100%;
+
+
 }
+.form-wrapper{
+  background: rgba(199, 105, 157, 0.9);
+  width: 60%;
+  color:white;
+  border-radius: 20px;
+}
+
+.form-wrapper label{
+  margin: 0rem 3rem;
+}
+
+.form-head  {
+  text-align: center;
+  padding: 4rem;
+  display: flex;
+}
+
+.form-h2{
+  justify-content: center;
+}
+
+.name-form, 
+.email-form {
+  padding: 2rem;
+  text-align: center;
+  font-size: 16px;
+}
+
+
 
 
 
