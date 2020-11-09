@@ -46,7 +46,9 @@ scroll-behavior: smooth;
 
 .nav .logo{
     font-size: 3.5rem;
-    font-weight: bold;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .nav-list{
@@ -265,6 +267,8 @@ p{
  color: white;
 }
 
+
+
 @media(max-width:600px) {
   .card {
     display: block;
@@ -274,10 +278,38 @@ p{
 @media(max-width: 800px){
   .logo-2{
     font-size:5.2rem;
+    color: black;
+    
     
   }
 }
+@media(max-width: 800px){
+   .nav-link, #nav-cta{
+    visibility: hidden;
+  }
 
+}
+
+@media(max-width: 800px){
+  .logo{
+    margin-left: 100px;
+  
+
+  }
+}
+
+@media(max-width: 800px){
+  .mid {
+    background-image: url(img/sportswear-windrunner-tech-fleece-hoodie-81d72F.jpg)
+
+  }
+}
+
+@media(max-width: 800px){
+  h4,h3{
+    color: darkgray;
+  }
+}
 
   
 
