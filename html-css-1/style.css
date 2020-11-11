@@ -10,6 +10,8 @@ font-size: 62.5%;
 scroll-behavior: smooth;
 }
 
+
+
 /* NAV-BAR STYLES */
 
 .main-head{
@@ -138,18 +140,12 @@ scroll-behavior: smooth;
 }
 
 
-
-
-
-
-
-
 .mid{
-    height: 100vh;
+    height: 100vh; 
     width: 100%;
     background-color: black;
     display: flex;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.2), transparent), url(img/Screen\ Shot\ 2020-10-27\ at\ 10.06.58\ PM\ \(1\).jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), transparent), url(img/Screen\ Shot\ 2020-10-27\ at\ 10.06.58\ PM\ \(1\).jpg); 
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -191,8 +187,9 @@ h3{
 }
 
 
+
 .container-1 {
-  max-width: 1800px; 
+  max-width: 2000px; 
   margin: auto;
   padding: 0 1rem;
   overflow: auto;
@@ -287,6 +284,51 @@ p{
  color: white;
 }
 
+/* FOOTER */
+
+
+/* Links */
+
+
+/* Footer */
+.footer {
+  background: #b06670;
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer div {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer div i {
+  margin-right: 10px;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer li {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+
+
 
 
 @media(max-width:600px) {
@@ -303,9 +345,7 @@ p{
 }
 @media(max-width: 750px){
   .logo-2{
-    font-size:5.2rem;
-    color:  black;
-    font-weight: 520;
+ display: none;
 
     
     
@@ -315,27 +355,22 @@ p{
 
 @media(max-width: 800px){
    .nav-link, #nav-cta{
-    visibility: hidden;
-  }
+    display: none;
 
 }
 
+}
 
 
 @media(max-width: 1200px){
   .mid {
     background-image: url(img/sportswear-windrunner-tech-fleece-hoodie-81d72F.jpg);
-    
-  
-
   }
 }
 
 @media(max-width: 1200px){
   h4{
-    color: black;
-    font-size: 40px;
-    font-weight: 300;
+    display: none;
   
   }
 }
@@ -347,68 +382,54 @@ p{
     display: block;
   }
 
-
-
-
-
-  
-
-#contact {
-  min-height: 50vh;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 
+/* CONTACT FORM */
 
-#contact button{
-  background-color:#b06670;
-  color: white;
-  padding: 15px 25px 15px 25px;
-  font-size: 2.6rem;
-  font-weight: 500;
-  border: none;
-  margin-top: 40px;
-  
-  cursor: pointer;   
-  transition-duration: 0.4s;
-  letter-spacing: 2px;
+
+.mid-2{
+  height: 83vh; 
   width: 100%;
-
-
-}
-.form-wrapper{
-  background: rgba(199, 105, 157, 0.9);
-  width: 60%;
-  color:white;
-  border-radius: 20px;
-}
-
-.form-wrapper label{
-  margin: 0rem 3rem;
-}
-
-.form-head  {
-  text-align: center;
-  padding: 4rem;
+  background-color: black;
   display: flex;
-}
-
-.form-h2{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), transparent), url(img/womens/Screen\ Shot\ 2020-11-11\ at\ 11.40.28\ AM.jpg); 
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center;
-}
-
-.name-form, 
-.email-form {
-  padding: 2rem;
+  align-items: center;
   text-align: center;
-  font-size: 16px;
+  flex-direction: column;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  
 }
 
 
 
+h4{
+font-size: 4rem;
+font-weight: 520;
+letter-spacing: 5px;
+color: #b06670;
+margin-top: 20px;
 
+}
 
-
+h3{
+  color: #b06670;
+  font-size: 4.5rem;
+  margin-top: 15px;
+  margin-right: 28px;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.logo-3{
+  color: #f5f5f5;
+  font-size: 8rem;
+  font-weight: 500;
+  margin-top: 5px;
+  letter-spacing: 15px;
+ 
+}
