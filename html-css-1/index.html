@@ -28,10 +28,12 @@
             </ul>
             <a href="#" id="nav-cta">Shop Now</a>
 
-            <div class="menu-btn">
-              <i class="fas fa-bars fa-2x"></i>
+            <div class="burger">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
             </div>
-            
+
             
         </nav>
     </div>
@@ -166,6 +168,26 @@
                              let header = document.querySelector('header');
                              let windowPosition = window.scrollY > 0;
                              header.classList.toggle('scrolling-active', windowPosition)  })
+
+
+
+                             const nav = document.querySelector(".nav-list");
+                             const burger = document.querySelector(".burger");
+                             const links = nav.querySelectorAll("a");
+
+burger.addEventListener("click", () => {
+  nav.classList.toggle("nav-open");
+  burger.classList.toggle("toggle");
+});
+
+links.forEach(link => {
+  link.addEventListener("click", () => {
+    nav.classList.toggle("nav-open");
+    burger.classList.toggle("toggle");
+  });
+});
+
+
                         </script>
                           
      
