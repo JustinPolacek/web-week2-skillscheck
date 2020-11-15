@@ -135,8 +135,6 @@ scroll-behavior: smooth;
 }
 
 
-
-
 @media screen and (max-width: 842px){
   .burger{
     position: relative;
@@ -396,6 +394,7 @@ p{
 .email-form {
   padding: 3rem;
   text-align: center;
+  border: none;
 }
 .form-wrapper label {
   margin: 0rem 3rem;
@@ -410,6 +409,8 @@ p{
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 300;
+  border: none;
+  cursor: pointer;
 }
 .form-wrapper input {
   padding: 1rem 3rem;
