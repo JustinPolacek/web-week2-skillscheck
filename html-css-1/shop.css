@@ -221,7 +221,7 @@ scroll-behavior: smooth;
 
 
 .mid{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url(img/pexels-shane-aldendorff-786003.jpg); 
@@ -285,23 +285,31 @@ h4{
 
 
 
+
 /* HERO SECTION */
 
 .img-hero{
 display: flex;
 justify-content: space-evenly;
 object-fit: contain;
+flex-wrap: wrap;
 
 }
 .img{
   height: 600px;
   width: 600px;
+  object-fit: scale-down;
   background-position: center;
+  
+
+  
 
 }
 
 .img-1{
-  background-image: url(img/pexels-wallace-chuck-3261069.jpg);
+  background-image: url(img/nikered/air-zoom-elevate-womens-training-shoe-1xqmqh.jpg);
+  
+
  
 }
 
