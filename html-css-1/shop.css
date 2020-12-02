@@ -221,10 +221,10 @@ scroll-behavior: smooth;
 
 
 .mid{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url(img/pexels-shane-aldendorff-786003.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url(img/nikered/air-zoom-elevate-womens-training-shoe-1xqmqh.jpg); 
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -296,10 +296,11 @@ flex-wrap: wrap;
 
 }
 .img{
-  height: 600px;
+  height: 500px; 
   width: 600px;
   object-fit: scale-down;
   background-position: center;
+
   
 
   
@@ -315,12 +316,28 @@ flex-wrap: wrap;
 
 .img-2{
   background-image: url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h.jpg);
- 
+  
 }
 
 .img-3{
   background-image: url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K.jpg);
+  
+}
+.img-4{
+  background-image: url(img/nikered/air-zoom-elevate-womens-training-shoe-1xqmqh.jpg);
+  
+  margin-top: 30px;
  
+}
+
+.img-5{
+  background-image: url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h.jpg);
+  margin-top: 30px;
+}
+
+.img-6{
+  background-image: url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K.jpg);
+  margin-top: 30px;
 }
 
 
