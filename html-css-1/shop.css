@@ -221,12 +221,13 @@ scroll-behavior: smooth;
 
 
 .mid{
-    height: 70vh;
+    height: 85vh;
     width: 100%;
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url(img/nikered/air-zoom-elevate-womens-training-shoe-1xqmqh.jpg); 
-    background-position: center ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K\ \(2\).jpg); 
+    object-fit: fill;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
@@ -243,6 +244,7 @@ scroll-behavior: smooth;
   background-image: url(/html-css-1/img/sportswear-windrunner-tech-fleece-hoodie-81d72F.jpg)
 }
 }
+
 
 
 
@@ -291,7 +293,7 @@ h4{
 .img-hero{
 display: flex;
 justify-content: space-evenly;
-object-fit: contain;
+object-fit: fill;
 flex-wrap: wrap;
 
 }
@@ -300,6 +302,7 @@ flex-wrap: wrap;
   width: 600px;
   object-fit: scale-down;
   background-position: center;
+  margin-top: 30px;
 
   
 
@@ -308,7 +311,8 @@ flex-wrap: wrap;
 }
 
 .img-1{
-  background-image: url(img/nikered/air-zoom-elevate-womens-training-shoe-1xqmqh.jpg);
+  background-image: url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(1\).jpg);
+  
   
 
  
@@ -321,7 +325,6 @@ flex-wrap: wrap;
 
 .img-3{
   background-image: url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K.jpg);
-  
 }
 .img-4{
   background-image: url(img/nikered/air-zoom-elevate-womens-training-shoe-1xqmqh.jpg);
