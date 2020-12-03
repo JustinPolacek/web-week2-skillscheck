@@ -234,7 +234,8 @@ scroll-behavior: smooth;
 	justify-content: center;
 	text-align: center;
 	color: #fff;
-	padding: 0 20px;
+  padding: 0 20px;
+  
 }
 
 .video-container {
@@ -247,6 +248,7 @@ scroll-behavior: smooth;
 	background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
     center/cover;
     border: 8px solid #b06670;
+    
 }
 
 .video-container video {
@@ -356,6 +358,7 @@ flex-wrap: wrap;
   position: relative;
   object-fit: fill;
   margin-top: 20px;
+  
 
   
 
@@ -417,8 +420,8 @@ flex-wrap: wrap;
 .img:hover h4{
 
   font-size: 3.5rem;
-  transition: 1s ease-in-out;
-  background:  #b06670;
+  transition: .7s ease-in-out;
+  background: #b06670;
   margin-top: 100px;
   opacity: 1;
   width: 70%;
@@ -498,7 +501,7 @@ background-size: 530px;
 .img-5:hover  {
   background:url(/html-css-1/img/nikered/nikered3.jpg);
   background-position: center bottom;
-  background-size: 520px;
+  background-size: 510px;
 
 }
 
@@ -511,13 +514,13 @@ background-size: 530px;
 
 
 .img-6{
-  background-image: url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K.jpg);
+  background-image: url(img/nikered/flex-2020-rn-womens-running-shoe-vjDKqB.jpg);
   background-size: 500px;
   
 }
 
 .img-6:hover  {
-  background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
+  background:url(/html-css-1/img/nikered/flex-2020-rn-womens-running-shoe-vjDKqB\ \(2\).jpg);
   background-position: center bottom;
   background-size: 550px;
 
