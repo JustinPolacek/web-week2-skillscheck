@@ -26,7 +26,7 @@ scroll-behavior: smooth;
 .container{
     width: 100%;
     max-width: 120rem;
-    margin: 0 auto;
+    margin:  auto;
     padding: 0 1.5rem;
 }
 
@@ -51,8 +51,12 @@ scroll-behavior: smooth;
     font-weight: 300;
     letter-spacing: 3px;
     text-transform: uppercase;
-  
 }
+
+.logo{
+  transform: translateX(-250px);
+}
+
 
 .nav-list{
     list-style: none;
