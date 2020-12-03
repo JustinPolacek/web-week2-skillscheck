@@ -380,7 +380,9 @@ flex-wrap: wrap;
  
 }
 
-
+.img:hover{
+  transition: 0.6s ease-in-out;
+}
 
 
 
@@ -392,7 +394,6 @@ flex-wrap: wrap;
 }
 .img-1:hover  {
   background:url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h.jpg);
-  transition: 1s ease-in-out;
   background-position: center top;
   object-fit: fill;
   background-size: 600px;
@@ -431,7 +432,6 @@ flex-wrap: wrap;
 }
 .img-2:hover{
 background-image: url(img/nikered/pegasus-trail-2-womens-trail-running-shoe-JNVF2M\ \(2\).jpg);
-transition: 1s ease-in-out;
 background-position: center bottom;
 background-size: 530px;
 }
@@ -451,9 +451,8 @@ background-size: 530px;
 
 .img-3:hover  {
   background:url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K\ \(2\).jpg);
-  transition: 1s ease-in-out;
   background-position: center top;
-  background-size: 530px;
+  background-size: 510px;
 
 }
 
@@ -472,7 +471,6 @@ background-size: 530px;
 
 .img-4:hover  {
   background:url(/html-css-1/img/nikered/wio-7-shield-womens-running-shoe-jcPJCM\ \(2\).jpg);
-  transition: 1s ease-in-out;
   background-position: center bottom;
   background-size: 550px;
 
@@ -492,9 +490,8 @@ background-size: 530px;
 }
 .img-5:hover  {
   background:url(/html-css-1/img/nikered/nikered3.jpg);
-  transition: 1s ease-in-out;
   background-position: center bottom;
-  background-size: 530px;
+  background-size: 520px;
 
 }
 
@@ -508,14 +505,14 @@ background-size: 530px;
 
 .img-6{
   background-image: url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K.jpg);
+  background-size: 500px;
   margin-top: 30px;
 }
 
 .img-6:hover  {
   background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
-  transition: 1s ease-in-out;
   background-position: center bottom;
-  object-fit: scale-down;
+background-size: 550px;
 
 }
 
@@ -533,7 +530,6 @@ background-size: 530px;
 }
 .img-7:hover  {
   background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
-  transition: 1s ease-in-out;
   background-position: center bottom;
   object-fit: scale-down;
 
@@ -554,7 +550,6 @@ background-size: 530px;
 
 .img-8:hover  {
   background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
-  transition: 1s ease-in-out;
   background-position: center bottom;
   object-fit: scale-down;
 
