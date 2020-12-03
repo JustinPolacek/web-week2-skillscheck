@@ -53,9 +53,7 @@ scroll-behavior: smooth;
     text-transform: uppercase;
 }
 
-.logo{
-  transform: translateX(-250px);
-}
+
 
 
 .nav-list{
@@ -356,6 +354,7 @@ flex-wrap: wrap;
   margin-top: 30px;
   cursor: pointer;
   position: relative;
+  object-fit: fill;
   
 
 }
@@ -387,15 +386,17 @@ flex-wrap: wrap;
 
 .img-1{
   background-image: url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(1\).jpg);
-  
+  background-size: 500px;
 
  
 }
 .img-1:hover  {
-  background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
+  background:url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h.jpg);
   transition: 1s ease-in-out;
-  background-position: center bottom;
-  object-fit: scale-down;
+  background-position: center top;
+  object-fit: fill;
+  background-size: 600px;
+  background-repeat: no-repeat;
 
 }
 .img:hover button{
@@ -425,15 +426,15 @@ flex-wrap: wrap;
 
 
 .img-2{
-  background-image: url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h.jpg);
+  background-image: url(img/nikered/pegasus-trail-2-womens-trail-running-shoe-JNVF2M.jpg);
+  background-size: 500px;
 }
 .img-2:hover{
-background-image: url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(1\).jpg);
+background-image: url(img/nikered/pegasus-trail-2-womens-trail-running-shoe-JNVF2M\ \(2\).jpg);
 transition: 1s ease-in-out;
-background-position: center;
-object-fit: fill;
+background-position: center bottom;
+background-size: 530px;
 }
-
 
 
 .img-2 h4{
@@ -444,17 +445,17 @@ object-fit: fill;
 
 
 .img-3{
-  background-image: url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K.jpg);
+  background-image: url(/html-css-1/img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K\ \(1\).jpg);
+  background-size: 500px;
 }
 
 .img-3:hover  {
-  background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
+  background:url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K\ \(2\).jpg);
   transition: 1s ease-in-out;
-  background-position: center bottom;
-  object-fit: scale-down;
+  background-position: center top;
+  background-size: 530px;
 
 }
-
 
 
 .img-3 h4{
@@ -463,16 +464,17 @@ object-fit: fill;
 
 
 .img-4{
-  background-image: url(img/nikered/air-zoom-elevate-womens-training-shoe-1xqmqh.jpg);
+  background-image: url(/html-css-1/img/nikered/wio-7-shield-womens-running-shoe-jcPJCM.jpg);
+  background-size: 500px;
   margin-top: 30px;
  
 }
 
 .img-4:hover  {
-  background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
+  background:url(/html-css-1/img/nikered/wio-7-shield-womens-running-shoe-jcPJCM\ \(2\).jpg);
   transition: 1s ease-in-out;
   background-position: center bottom;
-  object-fit: scale-down;
+  background-size: 550px;
 
 }
 
@@ -484,14 +486,15 @@ object-fit: fill;
 
 
 .img-5{
-  background-image: url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h.jpg);
+  background-image: url(img/nikered/nikered4.jpg);
+  background-size: 500px;
   margin-top: 30px;
 }
 .img-5:hover  {
-  background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
+  background:url(/html-css-1/img/nikered/nikered3.jpg);
   transition: 1s ease-in-out;
   background-position: center bottom;
-  object-fit: scale-down;
+  background-size: 530px;
 
 }
 

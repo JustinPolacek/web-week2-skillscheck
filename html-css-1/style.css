@@ -54,9 +54,6 @@ scroll-behavior: smooth;
   
 }
 
-.logo{
-  transform: translateX(-250px);
-}
 
 .nav-list{
     list-style: none;
