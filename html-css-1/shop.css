@@ -303,24 +303,53 @@ flex-wrap: wrap;
   object-fit: scale-down;
   background-position: center;
   margin-top: 30px;
-
-  
-
-  
-
+  cursor: pointer;
 }
+
+.img button{
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  cursor: pointer;
+  background-color:#b06670;
+  color: white;
+  padding: 15px 25px 15px 25px;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  font-weight: 500;
+  border: none;
+  transform: translate(220px, 400px);
+  position: relative;
+  text-decoration: none;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  border-radius: 16px;
+  
+}
+
+
 
 .img-1{
   background-image: url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(1\).jpg);
   
-  
 
  
+}
+.img-1:hover  {
+  background:url(/html-css-1/img/nikelab-mens-fleece-hoodie-J2jflV.jpg);
+  transition: 1s ease-in-out;
+  background-position: center top;
+  object-fit: fill;
 }
 
 .img-2{
   background-image: url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h.jpg);
-  
+}
+.img-2:hover{
+background-image: url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(1\).jpg);
+transition: 1s ease-in-out;
+background-position: center;
+object-fit: fill;
 }
 
 .img-3{
