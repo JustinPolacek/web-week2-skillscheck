@@ -398,12 +398,12 @@ flex-wrap: wrap;
   object-fit: scale-down;
 
 }
-
-.img-1:hover button{
+.img:hover button{
+  transition: .3s;
   opacity: 1;
-  transition: 1s ease-in-out;
- 
 }
+
+
 
 .img-1 h4{
   opacity: 0;
@@ -434,11 +434,7 @@ background-position: center;
 object-fit: fill;
 }
 
-.img-2:hover button{
-  opacity: 1;
-  transition: 1s ease-in-out;
- 
-}
+
 
 .img-2 h4{
   opacity: 0;
@@ -459,11 +455,7 @@ object-fit: fill;
 
 }
 
-.img-3:hover button{
-  opacity: 1;
-  transition: 1s ease-in-out;
- 
-}
+
 
 .img-3 h4{
   opacity: 0;
@@ -484,11 +476,7 @@ object-fit: fill;
 
 }
 
-.img-4:hover button{
-  opacity: 1;
-  transition: 1s ease-in-out;
- 
-}
+
 
 .img-4 h4{
   opacity: 0;
@@ -507,11 +495,7 @@ object-fit: fill;
 
 }
 
-.img-5:hover button{
-  opacity: 1;
-  transition: 1s ease-in-out;
- 
-}
+
 
 .img-5 h4{
   opacity: 0;
@@ -532,11 +516,7 @@ object-fit: fill;
 
 }
 
-.img-6:hover button{
-  opacity: 1;
-  transition: 1s ease-in-out;
- 
-}
+
 
 .img-6 h4{
   opacity: 0;
@@ -556,11 +536,7 @@ object-fit: fill;
 
 }
 
-.img-7:hover button{
-  opacity: 1;
-  transition: 1s ease-in-out;
- 
-}
+
 
 .img-7 h4{
   opacity: 0;
@@ -581,11 +557,7 @@ object-fit: fill;
 
 }
 
-.img-8:hover button{
-  opacity: 1;
-  transition: 1s ease-in-out;
- 
-}
+
 
 .img-8 h4{
   opacity: 0;
