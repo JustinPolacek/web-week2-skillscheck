@@ -224,24 +224,7 @@ scroll-behavior: smooth;
 }
 
 
-.mid{
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K\ \(2\).jpg); 
-    object-fit: fill;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    overflow: hidden;
-    
-}
+
 
 
 /*VIDEO */
@@ -352,27 +335,6 @@ h3{
     font-weight: 100;
     letter-spacing: 3px;
 }
-.logo-2{
-    color: #f5f5f5;
-    font-size: 8rem;
-    font-weight: 500;
-    margin-top: 5px;
-    letter-spacing: 15px;
-   
-}
-
-@media(max-width: 1340px){
-  .logo-2{
-    color: black;
-    display: none;
-}
-h4{
-  display: none;
-}
-}
-
-
-
 
 
 /* HERO SECTION */
@@ -385,7 +347,7 @@ flex-wrap: wrap;
 
 }
 .img{
-  height: 500px; 
+  height: 499px; 
   width: 610px;
   object-fit: scale-down;
   background-position: center;
@@ -393,26 +355,27 @@ flex-wrap: wrap;
   cursor: pointer;
 }
 
-.img button{
+.img button {
   color: #fff;
   padding: 0.8rem 1.8rem;
   cursor: pointer;
   background-color:#b06670;
   color: white;
-  padding: 15px 25px 15px 25px;
+  padding: 15px 260px 15px 265px;
   margin-top: 20px;
   font-size: 2.5rem;
   font-weight: 500;
   border: none;
-  transform: translate(220px, 400px);
+  transform: translate(0px, 420px);
   position: relative;
   text-decoration: none;
   opacity: 0;
   position: absolute;
   text-align: center;
-  border-radius: 16px;
-  
+ 
 }
+
+
 
 
 
@@ -423,11 +386,33 @@ flex-wrap: wrap;
  
 }
 .img-1:hover  {
-  background:url(/html-css-1/img/nikelab-mens-fleece-hoodie-J2jflV.jpg);
+  background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
   transition: 1s ease-in-out;
-  background-position: center top;
-  object-fit: fill;
+  background-position: center bottom;
+  object-fit: scale-down;
+
 }
+
+.img-1:hover button{
+  opacity: 1;
+  transition: 1s ease-in-out;
+ 
+}
+
+.img-1 h4{
+  opacity: 0;
+}
+
+.img-1:hover h4{
+  opacity: 0.9;
+  transition: ease-in-out;
+  background: white;
+  width: 60%;
+  margin-top: 100px;
+
+}
+
+
 
 .img-2{
   background-image: url(img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h.jpg);
@@ -438,6 +423,26 @@ transition: 1s ease-in-out;
 background-position: center;
 object-fit: fill;
 }
+
+.img-2:hover button{
+  opacity: 1;
+  transition: 1s ease-in-out;
+ 
+}
+
+.img-2 h4{
+  opacity: 0;
+}
+
+.img-2:hover h4{
+  opacity: 0.9;
+  transition: ease-in-out;
+  background: white;
+  width: 60%;
+  margin-top: 100px;
+
+}
+
 
 .img-3{
   background-image: url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K.jpg);
@@ -467,6 +472,7 @@ object-fit: fill;
   color: #f5f5f5;
   font-size: 16px;
   padding: 20px 0;
+  margin-top: 10px;
 }
 
 .footer-inner {
