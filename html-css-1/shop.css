@@ -247,7 +247,7 @@ scroll-behavior: smooth;
 	overflow: hidden;
 	background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
     center/cover;
-    border: 8px solid #b06670;
+
     
 }
 
@@ -346,6 +346,7 @@ display: flex;
 justify-content: space-evenly;
 object-fit: fill;
 flex-wrap: wrap;
+padding-top: 30px;
 
 
 }
@@ -357,7 +358,9 @@ flex-wrap: wrap;
   cursor: pointer;
   position: relative;
   object-fit: fill;
-  margin-top: 20px;
+  padding-top: 20px;
+  justify-content: center;
+
   
 
   
@@ -370,8 +373,9 @@ flex-wrap: wrap;
   cursor: pointer;
   background-color:#b06670;
   color: white;
-  padding: 15px 25px 15px 25px;
+  padding: 15px 100px 15px 100px;
   margin-top: 20px;
+  margin-left: 80px;
   font-size: 2.5rem;
   font-weight: 500;
   border: none;
@@ -381,7 +385,8 @@ flex-wrap: wrap;
   opacity: 0;
   position: absolute;
   text-align: center;
-  width: 100%;
+  border-radius: 30px;
+  letter-spacing: 1px;
  
 }
 
