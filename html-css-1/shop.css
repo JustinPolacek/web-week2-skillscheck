@@ -234,7 +234,7 @@ scroll-behavior: smooth;
 	justify-content: center;
 	text-align: center;
 	color: #fff;
-  padding: 0 20px;
+ 
   
 }
 
@@ -346,10 +346,11 @@ display: flex;
 justify-content: space-evenly;
 object-fit: fill;
 flex-wrap: wrap;
-padding-top: 30px;
-
+margin-top: 10px;
 
 }
+
+
 .img{
   height: 600px; 
   width: 450px;
@@ -359,11 +360,8 @@ padding-top: 30px;
   position: relative;
   object-fit: fill;
   padding-top: 20px;
-  justify-content: center;
-
-  
-
-  
+  justify-content: center;  
+  margin-top: 20px;
 
 }
 
@@ -427,7 +425,6 @@ padding-top: 30px;
   font-size: 3.5rem;
   transition: .7s ease-in-out;
   background: #b06670;
-  margin-top: 100px;
   opacity: 1;
   width: 70%;
   color: white;
@@ -461,6 +458,7 @@ background-size: 530px;
   background-image: url(/html-css-1/img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K\ \(1\).jpg);
   background-size: 500px;
   background-position: center top;
+  
 }
 
 .img-3:hover  {
@@ -479,6 +477,7 @@ background-size: 530px;
 .img-4{
   background-image: url(/html-css-1/img/nikered/wio-7-shield-womens-running-shoe-jcPJCM.jpg);
   background-size: 500px;
+
  
  
 }
@@ -500,6 +499,7 @@ background-size: 530px;
 .img-5{
   background-image: url(img/nikered/nikered4.jpg);
   background-size: 500px;
+
  
 
 }
@@ -521,6 +521,7 @@ background-size: 530px;
 .img-6{
   background-image: url(img/nikered/flex-2020-rn-womens-running-shoe-vjDKqB.jpg);
   background-size: 500px;
+
   
 }
 
@@ -531,19 +532,16 @@ background-size: 530px;
 
 }
 
-
-
 .img-6 h4{
   opacity: 0;
 }
 
 
-
 .img-7{
   background-image: url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K.jpg);
   background-position: center;
-
   background-size: 500px;
+
 }
 .img-7:hover  {
   background:url(/html-css-1/img/nikered/react-phantom-run-flyknit-2-premium-womens-running-shoe-65fS2h\ \(3\).jpg);
@@ -551,8 +549,6 @@ background-size: 530px;
   background-size: 550px;
 
 }
-
-
 
 .img-7 h4{
   opacity: 0;
@@ -564,7 +560,6 @@ background-size: 530px;
   background-image: url(img/nikered/zoom-pegasus-turbo-2-womens-running-shoe-lBb48K.jpg);
   background-position: center bottom;
   background-size: 500px;
-
   
 }
 
@@ -574,8 +569,6 @@ background-size: 530px;
   object-fit: scale-down;
 
 }
-
-
 
 .img-8 h4{
   opacity: 0;
