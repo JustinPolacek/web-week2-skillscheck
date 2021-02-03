@@ -236,13 +236,14 @@ scroll-behavior: smooth;
     margin-bottom: 10px;
     letter-spacing: 2px;
     overflow: hidden;
+    flex-wrap: wrap;
     
 }
 
 @media(max-width: 1340px){
-.mid{
-  background-image: url(/html-css-1/img/sportswear-windrunner-tech-fleece-hoodie-81d72F.jpg);
-}
+  .mid{
+    background-image: url('/html-css-1/img/sportswear-windrunner-tech-fleece-hoodie-81d72F.jpg');
+  }
 }
 
 
