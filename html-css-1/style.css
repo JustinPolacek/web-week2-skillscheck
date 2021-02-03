@@ -225,7 +225,7 @@ scroll-behavior: smooth;
     height: 100vh;
     width: 100%;
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url("/html-css-1/img/sportswear-windrunner-tech-fleece-hoodie-81d72F.jpg"); 
+    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent), url("/html-css-1/img/pexels-ray-piedra-1456706.jpg"); 
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,7 +236,7 @@ scroll-behavior: smooth;
     margin-bottom: 10px;
     letter-spacing: 2px;
     overflow: hidden;
-    object-fit: fill;
+    object-fit: ;
     
 }
 
